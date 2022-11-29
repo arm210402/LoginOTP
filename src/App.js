@@ -109,15 +109,15 @@ const App = () => {
     <Router>
       <div id="recaptcha-container"></div>
       <Switch>
+        
         <Route path="/" exact>
-          <Home signOut={signOut} user={user} />
-        </Route>
-        <Route path="/signin" exact>
           <SignIn
             loginSubmit={loginSubmit}
             otpSubmit={otpSubmit}
             viewOtpForm={viewOtpForm}
+
           />
+          user?<Home signOut={signOut} user={user} />:"Error";
         </Route>
       </Switch>
     </Router>
