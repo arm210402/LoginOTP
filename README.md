@@ -1,4 +1,4 @@
-Code for OTP verification using firebase 
+<h1>Code for OTP verification using firebase<h1> 
 
 ![React App - Brave 12_1_2022 11_10_42 PM](https://user-images.githubusercontent.com/59504320/205123248-5b96ad29-1f76-41a9-8777-48be92d5240d.png)
 
