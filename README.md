@@ -1,3 +1,10 @@
+Code for OTP verification using firebase 
+
+![React App - Brave 12_1_2022 11_10_42 PM](https://user-images.githubusercontent.com/59504320/205123248-5b96ad29-1f76-41a9-8777-48be92d5240d.png)
+
+![React App - Brave 12_1_2022 11_10_58 PM](https://user-images.githubusercontent.com/59504320/205123338-95340a4e-3d07-4c50-ad39-2bcf14d7a149.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
