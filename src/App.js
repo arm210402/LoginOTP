@@ -15,12 +15,12 @@ const App = () => {
   const [viewOtpForm, setViewOtpForm] = useState(false);
   const [user, setUser] = useState(false);
   const firebaseConfig = {
-    apiKey: process.env.apiKey,
-    authDomain: process.env.authDomain,
-    projectId: process.env.projectid,
-    storageBucket: process.env.storageBucket,
-    messagingSenderId: process.env.messagingSenderId,
-    appId: process.env.appId
+    apiKey: process.env.REACT_APP_APIKEY,
+    authDomain: process.env.REACT_APP_AUTHDOMAIN,
+    projectId: process.env.REACT_APP_PROJECTID,
+    storageBucket: process.env.REACT_APP_STORAGEBUCKET,
+    messagingSenderId: process.env.REACT_APP_MESSAGESENDERID,
+    appId: process.env.REACT_APP_APIID
   };
 
   useEffect(() => {
