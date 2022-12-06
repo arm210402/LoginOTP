@@ -17,7 +17,7 @@ const App = () => {
   const firebaseConfig = {
     apiKey: "AIzaSyAdODx3GUKzuqH11VDJsNnPNFvVYJc9MWU",
     authDomain: "loginapp-b0b7a.firebaseapp.com",
-    projectId: "loginapp-b0b7a",
+    projectId: process.env.projectid,
     storageBucket: "loginapp-b0b7a.appspot.com",
     messagingSenderId: "503925603916",
     appId: "1:503925603916:web:c32800d0887307879e3ee9"
